@@ -1,0 +1,101 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    background: linear-gradient(45deg,#27dbe9,#e3e67d);
+}
+
+a{
+    text-decoration: none;
+}
+
+.menubar{
+    text-align: center;
+    color: crimson;
+    font-size: 30px;
+    
+}
+
+.menubar ul li{
+    list-style: none;
+    display: inline-block;
+    margin-left: 20px;
+    margin-top: 20px;
+}
+
+.menubar ul li a{
+    /* color: crimson; */
+}
+
+.menubar ul li a:hover{
+    color: black;
+}
+
+.form-box{
+    width: 450px;
+    /* height: 400px; */
+    background: linear-gradient(45deg, #DAF7A6, #DAF7A6);
+    margin: 0 auto;
+    margin-top: 30px;
+   
+    
+}
+h2{
+    text-align: center;
+    text-transform: uppercase;
+    font-weight: 900px;
+    padding-top: 74px;
+}
+
+.form-box form{
+    text-align: center;
+}
+
+
+
+.form-box form input{
+	width: 300px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+    margin-top: 30px;
+    padding: 13px 61px;
+    background: transparent;
+    /* padding-left: 13px; */
+}
+
+.btn{
+    background: linear-gradient(45deg, #C70039, #900C3F);
+
+}
+.form-box form input .btn:hover{
+    color: crimson;
+}
+
+
+.social-icon{
+	text-align: center;
+}
+.social-icon ul li{
+	list-style: none;
+	display: inline-block;
+	margin: 20px 10px;
+}
+.social-icon ul li a i{
+	height: 60px;
+	width: 60px;
+	background-color: red;
+	color: white;
+	line-height: 60px;
+	border-radius: 100%;
+	font-size: 22px;
+	transition: 0.5s;
+	
+}
+
+
+.social-icon ul li a i:hover{
+	transform: scale(0.6);
+	transition: 0.5s;
+}
